@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Caveat+Brush&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,600;1,600&family=Patrick+Hand&family=Sofia&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
 * {
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
@@ -18,7 +20,8 @@ nav {
     justify-content: flex-end;
     align-items: center;
     padding: 1rem 2rem;
-    background: rgba(0, 0, 0, 0.8); /* Add contrast to navbar */
+    background: rgba(0, 0, 0, 0.8); /* Add contrast to navbar */+
+    z-index: 2;
 }
 
 nav a {
@@ -43,19 +46,37 @@ nav .denny:hover{
     color:black;
     background: white;
 }
-.first-logo{
-    max-width: 550px;
-    width: 50%;
+.first-word{
     position: absolute;
-    left: -55px;
-    top: 110px;
+    font-family: "Patrick Hand", serif;
+    top:110px;
+    left: 45%;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: black;
+    transform: rotate(-1deg); /* Adjust the angle to your preference */
+    word-wrap: break-word;
+    width: 15rem;
+}
+.first-word:hover{
+    transform: rotate(-5deg) scale(1.05); /* Slightly enlarge the text */
+    color: darkred; /* Change the text color */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a shadow for emphasis */
+}
+.first-logo{
+    max-width: 850px;
+    width: 50%;
+    position: relative;
+    left: -65px;
+    top: -360px;
+    z-index: -1;
 }
 .second-logo{
-    max-width: 550px;
-    width: 60%;
+    max-width: 450px;
+    width: 50%;
     position: absolute;
-    left: 1px;
-    top: 220px;
+    left: 5%;
+    top: 130px;
 }
 .third-logo{
     max-width: 700px;
