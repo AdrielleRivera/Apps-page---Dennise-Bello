@@ -248,14 +248,14 @@ html, body {
 .first-section {
     position: relative;
     margin: 0 auto;
-    padding-bottom: 150px; /* Add space to avoid footer overlap */
+    padding-bottom: 250px; /* Add space to avoid footer overlap */
     min-height: calc(100vh - 100px); /* Ensure full viewport minus header/footer */
     overflow: hidden; /* Contain floating elements */
 }
 
 /* Adjust footer to avoid overlapping content */
 footer {
-    position: relative;
+    position: absolute;
     margin-top: auto; /* Push footer below content */
     bottom: 0;
     left: 0;
