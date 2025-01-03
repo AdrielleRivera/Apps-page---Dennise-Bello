@@ -46,6 +46,9 @@ nav .denny:hover{
     color:black;
     background: white;
 }
+.first-section{
+
+}
 .first-word{
     position: absolute;
     font-family: "Caveat Brush",  cursive;
@@ -66,12 +69,13 @@ nav .denny:hover{
     color: darkred; /* Change the text color */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a shadow for emphasis */
 }
+/*first part starts here*/
 .first-logo{
     max-width: 850px;
     width: 50%;
     position: relative;
-    left: -65px;
-    top: -360px;
+    left: -80px;
+    top: -290px;
     z-index: -1;
 }
 .second-logo{
@@ -106,12 +110,96 @@ nav .denny:hover{
     left: 73%;
     top: 120px;
 }
+/*second part starts here*/
 
-
+.sixth-logo{
+    max-width: 350px;
+    width: 50%;
+    position: absolute;
+    left: 0%;
+    top: 250px;
+}
+.seventh-logo{
+    max-width: 500px;
+    width: 60%;
+    position: absolute;
+    left: 33%; /* Move to the center horizontally */
+    top: 280px; /* Adjust as needed for vertical positioning */
+    transform: translateX(-50%); /* Center the element */
+    justify-content: center;
+    text-align: center;
+}
+.eighth-logo{
+    max-width: 450px;
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 400px;
+   
+}
+.nineth-logo{
+    max-width: 250px;
+    width: 60%;
+    position: absolute;
+    left: 78%;
+    top: 415px;
+}
+/*third part starts here*/
+.tenth-logo{
+    max-width: 350px;
+    width: 50%;
+    position: absolute;
+    left: -4%;
+    top: 420px;
+}
+.eleventh-logo{
+    max-width: 300px;
+    width: 50%;
+    position: absolute;
+    left: -1%;
+    top: 620px;
+}
+.twelveth-logo{
+    max-width: 370px;
+    width: 50%;
+    position: absolute;
+    left: 18%;
+    top: 620px;
+}
+.thirteenth-logo{
+    max-width: 270px;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 720px;
+}
+.fourteenth-logo{
+    max-width: 200px;
+    width: 50%;
+    position: absolute;
+    left: 66%;
+    top: 740px;
+}
+.fifteenth-logo{
+    max-width: 330px;
+    width: 60%;
+    position: absolute;
+    left: 78%;
+    top: 525px;
+    z-index: 2;
+}
+.sixteenth-logo{
+    max-width: 950px; /* Set an appropriate size */
+    width: 100%; /* Adjust the width */
+    position: absolute; /* Absolute positioning to control placement */
+    left: 69%; /* Adjust as needed for horizontal placement */
+    top: 540px; /* Adjust as needed for vertical placement */
+    z-index: 1; /* Ensure it appears correctly layered */
+}
 
 
 footer{
- position:  fixed;
+    position:  fixed;
     bottom: 0;       /* Align to the bottom of the viewport */
     left: 0;         /* Align to the left edge */
     width: 100%;     /* Make it span the entire width of the page */
@@ -146,6 +234,47 @@ footer > p:first-of-type {
     cursor: pointer;
     font-size: 1rem;
     display: none;
+}
+/* Ensure the body and html are scrollable */
+html, body {
+    height: 100%;
+    overflow-y: auto; /* Enable vertical scrolling */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Adjust the first section to fit dynamically */
+.first-section {
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 150px; /* Add space to avoid footer overlap */
+    min-height: calc(100vh - 100px); /* Ensure full viewport minus header/footer */
+    overflow: hidden; /* Contain floating elements */
+}
+
+/* Adjust footer to avoid overlapping content */
+footer {
+    position: relative;
+    margin-top: auto; /* Push footer below content */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    z-index: 1000;
+}
+
+/* Ensure header doesn't conflict with scrolling */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.8);
 }
 
 
