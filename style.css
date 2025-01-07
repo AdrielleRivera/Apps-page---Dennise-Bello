@@ -305,27 +305,95 @@ header {
     }
 
     /*Put the logo or text here to become responsive*/
-    .first-logo{
-        width:65%;
-        top:65px;
-        
+    .first-word{
+        left:40%;
+        width: 50%;   
+        top:80px;  
     }
-    .second-logo{
-        width:60%;
-        top: 300px;
-    }
-    .third-logo{
-        top: 155px;
-        width: 75%;
-        left: 60%;
-    }
-    .fourth-logo{
-        width: 50%;
-        top: 0px;
-        left: 57%;
-    }
-    .fifth-logo{
-        width: 50%;
+
+/*first part starts here*/
+.first-logo{
+    width:65%;
+    top:-130px;
+    left:-10%;
+}
+.second-logo{
+    width:35%;
+    top: 150px;
+    left:-1%;
+}
+.third-logo{
+    width:30%;
+    top: 150px;
+
+}
+.fourth-logo{
+     width:25%;
+    top: 150px;
+    left:51%;
+}
+.fifth-logo{
+    width:25%;
+    top: 150px;
+    left:73%;
+}
+/*second part starts here*/
+
+.sixth-logo{
+   width:35%;
+    top:180px;
+    left:-1%;
+}
+.seventh-logo{
+   width:35%;
+    top: 210px;
+    left:43%;
+}
+.eighth-logo{
+   width:35%;
+    top: 230px;
+    left:58%;
+   
+}
+.nineth-logo{
+   width:35%;
+    top: 350px;
+    left:67%;
+}
+/*third part starts here*/
+.tenth-logo{
+    width:45%;
+    top:250px;
+    left:-10%;
+}
+.eleventh-logo{
+    width:35%;
+    top: 360px;
+    left:-2.5%;
+}
+.twelveth-logo{
+    width:45%;
+    top: 330px;
+    left:27%;
+}
+.thirteenth-logo{
+     width:25%;
+    top: 470px;
+    left:0%;
+}
+.fourteenth-logo{
+    width:25%;
+    top: 490px;
+    left:25%;
+}
+.fifteenth-logo{
+    width:35%;
+    top: 450px;
+    left:67%;
+}
+
+    footer{
+        position: fixed;
     }
 
     /*This is the burger button part!! yahoo(sorry this is an achievement for me)*/
